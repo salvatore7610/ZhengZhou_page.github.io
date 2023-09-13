@@ -99,7 +99,7 @@
 .u-section-2 .u-video-1 {
   width: 570px;
   height: 309px;
-  margin: 48px auto 0 296px;
+  margin: 48px auto 0;
 }
 
 .u-section-2 .u-text-1 {
@@ -121,12 +121,6 @@
   }
 }
 
-@media (max-width: 991px) {
-  .u-section-2 .u-video-1 {
-    margin-left: 150px;
-  }
-}
-
 @media (max-width: 767px) {
   .u-section-2 .u-sheet-1 {
     min-height: 585px;
@@ -136,7 +130,6 @@
     width: 540px;
     height: 293px;
     margin-top: 248px;
-    margin-left: 0;
   }
 
   .u-section-2 .u-text-1 {
